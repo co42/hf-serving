@@ -1,0 +1,5 @@
+kube_config = ""
+
+registry_server = ""
+registry_username = ""
+registry_password = ""

@@ -1,0 +1,5 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+torch==1.10.0+cpu
+transformers==4.12.2
+sanic==21.9

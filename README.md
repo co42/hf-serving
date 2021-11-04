@@ -8,7 +8,7 @@ This project aim to provide an API to translate text from English to French and 
 
 [infrastructure](./infra/README.md)
 
-[bench](./infra/README.md)
+[bench](./bench/README.md)
 
 ## Next steps
 

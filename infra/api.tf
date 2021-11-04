@@ -28,5 +28,24 @@ spec:
           env:
             - name: TARGET
               value: "Translate v1"
+          resources:
+            requests:
+              cpu: 2
+            limits:
+              cpu: 2
+      tolerations:
+        - key: "dedicated"
+          operator: "Equal"
+          value: "api"
+          effect: "NoSchedule"
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: dedicated
+                operator: In
+                values:
+                - api
 YAML
 }

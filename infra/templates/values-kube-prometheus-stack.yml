@@ -11,6 +11,7 @@ prometheus:
     type: LoadBalancer
 
   prometheusSpec:
+    scrapeInterval: 5s
     serviceMonitorSelectorNilUsesHelmValues: false
     podMonitorSelectorNilUsesHelmValues: false
 

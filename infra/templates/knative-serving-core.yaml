@@ -4055,6 +4055,8 @@ metadata:
   annotations:
     knative.dev/example-checksum: "2897f625"
 data:
+  kubernetes.podspec-tolerations: "enabled"
+  kubernetes.podspec-affinity: "enabled"
   _example: |-
     ################################
     #                              #

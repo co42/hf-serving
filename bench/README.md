@@ -14,7 +14,7 @@ More details are available on Grafana / Knative Serving - Revision HTTP Requests
 
 ## Results
 
-Since we use knative it can scale to 0 and still answer to all requests.  
+Since we use knative it can scale to 0 pods without loosing any request.  
 We start with 2 requests in parallel, then 6, 12, and 14.  
 We can see that as the concurrency increase the number of pods is scaling up and the request per seconds answered is increasing linearly.  
 

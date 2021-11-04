@@ -12,6 +12,7 @@ This project aim to provide an API to translate text from English to French and 
 
 ## Next steps
 
+- Try other models, not just T5-base and choose one that match the performance / results wanted.
 - Add DNS + HTTPS
 - Add security group for Prometheus, Grafana, ...
 - knative API service miss some configuration to handle scaling better, maximum number of instances for example.
